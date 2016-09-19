@@ -1,0 +1,172 @@
+xcodebuild                          :     5.0225r     9.3746u     4.2349s                
+ Option parsing                      :     0.0007r     0.0000u     0.0000s                
+ IDEInitialize()                     :     0.3245r     0.0000u     0.0000s                
+ Device location                     :     0.0045r     0.0000u     0.0000s                
+ Option resolution                   :     0.1630r     0.0000u     0.0000s                
+   xcconfig loading                    :     0.0005r     0.0000u     0.0000s                
+   Scanning for projects               :     0.0008r     0.0000u     0.0000s                
+   Project loading                     :     0.1593r     0.0000u     0.0000s                
+   Scheme loading                      :     0.0000r     0.0000u     0.0000s                
+   Run destination resolution          :     0.0001r     0.0000u     0.0000s                
+ Build actions                       :     4.5273r     9.3746u     4.2349s                
+   Action 'clean' and destination 'Generic iOS Device' :     0.1965r     0.0000u     0.0000s                
+     Create scheme operations            :     0.0024r     0.0000u     0.0000s                
+     Queued by execution environment     :     0.0011r     0.0000u     0.0000s                
+     Build operation                     :     0.1888r     0.0000u     0.0000s                
+       Build operation setup               :     0.0147r     0.0000u     0.0000s                
+         Builder creation                    :     0.0000r     0.0000u     0.0000s                
+       Build                               :     0.1736r     0.0000u     0.0000s                
+         Builder BrainlyAPIClient            :     0.1733r     0.0000u     0.0000s                
+           Dependency graph creation           :     0.1265r     0.0000u     0.0000s                
+             Creating default build plan         :     0.0004r     0.0000u     0.0000s                
+           Wait for dependency graph           :     0.1260r     0.0000u     0.0000s                
+           Create auxiliary files              :     0.0000r     0.0000u     0.0000s                
+           Dependency analysis                 :     0.0000r     0.0000u     0.0000s                
+             Clean.Remove                        :     0.00r     0.00u     0.00s                 | Analyze dependencies for a command
+             Clean.Remove                        :     0.00r     0.00u     0.00s                 | Analyze dependencies for a command
+           IDEBuildTask creation               :     0.0003r     0.0000u     0.0000s                
+             Clean.Remove                        :     0.00r     0.00u     0.00s                 | Wrap a command in an IDEBuildTask
+             Clean.Remove                        :     0.00r     0.00u     0.00s                 | Wrap a command in an IDEBuildTask
+           Build tasks                         :     0.0464r     0.0000u     0.0000s                
+             Clean.Remove                        :     0.00r     0.00u     0.00s                 | Clean.Remove clean /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Products/Debug-iphoneos/BrainlyAPIClient.framework
+             Clean.Remove                        :     0.05r     0.00u     0.00s                 | Clean.Remove clean /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Intermediates/BrainlyAPIClient.build/Debug-iphoneos/BrainlyAPIClient.build
+           Builder postprocessing              :     0.0000r     0.0000u     0.0000s                
+           Builder cleanup                     :     0.0001r     0.0000u     0.0000s                
+       Build operation finishing           :     0.0000r     0.0000u     0.0000s                
+       Build operation cleanup             :     0.0004r     0.0000u     0.0000s                
+   Action 'build' and destination 'Generic iOS Device' :     4.3305r     9.3746u     4.2349s                
+     Create scheme operations            :     0.0013r     0.0000u     0.0000s                
+     Queued by execution environment     :     0.0004r     0.0000u     0.0000s                
+     Build operation                     :     4.3281r     9.3746u     4.2349s                
+       Build operation setup               :     0.0050r     0.0000u     0.0000s                
+         Builder creation                    :     0.0000r     0.0000u     0.0000s                
+       Build                               :     4.3227r     9.3746u     4.2349s                
+         Builder BrainlyAPIClient            :     4.3219r     9.3746u     4.2349s                
+           Dependency graph creation           :     0.0500r     0.0000u     0.0000s                
+             Creating default build plan         :     0.0003r     0.0000u     0.0000s                
+           Wait for dependency graph           :     0.0976r     0.0000u     0.0000s                
+           Create auxiliary files              :     0.0063r     0.0000u     0.0000s                
+           Dependency analysis                 :     0.0014r     0.0000u     0.0000s                
+             ProcessInfoPlistFile                :     0.00r     0.00u     0.00s                 | Analyze dependencies for a command
+             CompileSwiftSources                 :     0.00r     0.00u     0.00s                 | Analyze dependencies for a command
+             CompileSwiftSources                 :     0.00r     0.00u     0.00s                 | Analyze dependencies for a command
+             Ditto                               :     0.00r     0.00u     0.00s                 | Analyze dependencies for a command
+             Ditto                               :     0.00r     0.00u     0.00s                 | Analyze dependencies for a command
+             CompileC                            :     0.00r     0.00u     0.00s                 | Analyze dependencies for a command
+             CompileC                            :     0.00r     0.00u     0.00s                 | Analyze dependencies for a command
+             Ditto                               :     0.00r     0.00u     0.00s                 | Analyze dependencies for a command
+             Ditto                               :     0.00r     0.00u     0.00s                 | Analyze dependencies for a command
+             Ditto                               :     0.00r     0.00u     0.00s                 | Analyze dependencies for a command
+             Ditto                               :     0.00r     0.00u     0.00s                 | Analyze dependencies for a command
+             Ld                                  :     0.00r     0.00u     0.00s                 | Analyze dependencies for a command
+             Ld                                  :     0.00r     0.00u     0.00s                 | Analyze dependencies for a command
+             CreateUniversalBinary               :     0.00r     0.00u     0.00s                 | Analyze dependencies for a command
+             CpHeader                            :     0.00r     0.00u     0.00s                 | Analyze dependencies for a command
+             CpResource                          :     0.00r     0.00u     0.00s                 | Analyze dependencies for a command
+             Ditto                               :     0.00r     0.00u     0.00s                 | Analyze dependencies for a command
+             Touch                               :     0.00r     0.00u     0.00s                 | Analyze dependencies for a command
+             CodeSign                            :     0.00r     0.00u     0.00s                 | Analyze dependencies for a command
+           IDEBuildTask creation               :     0.0009r     0.0000u     0.0000s                
+             ProcessInfoPlistFile                :     0.00r     0.00u     0.00s                 | Wrap a command in an IDEBuildTask
+             CompileSwiftSources                 :     0.00r     0.00u     0.00s                 | Wrap a command in an IDEBuildTask
+             CompileSwiftSources                 :     0.00r     0.00u     0.00s                 | Wrap a command in an IDEBuildTask
+             Ditto                               :     0.00r     0.00u     0.00s                 | Wrap a command in an IDEBuildTask
+             Ditto                               :     0.00r     0.00u     0.00s                 | Wrap a command in an IDEBuildTask
+             CompileC                            :     0.00r     0.00u     0.00s                 | Wrap a command in an IDEBuildTask
+             CompileC                            :     0.00r     0.00u     0.00s                 | Wrap a command in an IDEBuildTask
+             Ditto                               :     0.00r     0.00u     0.00s                 | Wrap a command in an IDEBuildTask
+             Ditto                               :     0.00r     0.00u     0.00s                 | Wrap a command in an IDEBuildTask
+             Ditto                               :     0.00r     0.00u     0.00s                 | Wrap a command in an IDEBuildTask
+             Ditto                               :     0.00r     0.00u     0.00s                 | Wrap a command in an IDEBuildTask
+             Ld                                  :     0.00r     0.00u     0.00s                 | Wrap a command in an IDEBuildTask
+             Ld                                  :     0.00r     0.00u     0.00s                 | Wrap a command in an IDEBuildTask
+             CreateUniversalBinary               :     0.00r     0.00u     0.00s                 | Wrap a command in an IDEBuildTask
+             CpHeader                            :     0.00r     0.00u     0.00s                 | Wrap a command in an IDEBuildTask
+             CpResource                          :     0.00r     0.00u     0.00s                 | Wrap a command in an IDEBuildTask
+             Ditto                               :     0.00r     0.00u     0.00s                 | Wrap a command in an IDEBuildTask
+             Touch                               :     0.00r     0.00u     0.00s                 | Wrap a command in an IDEBuildTask
+             CodeSign                            :     0.00r     0.00u     0.00s                 | Wrap a command in an IDEBuildTask
+           Build tasks                         :     4.2128r     9.3746u     4.2349s                
+             ProcessInfoPlistFile                :     0.00r     0.00u     0.00s                 | ProcessInfoPlistFile /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Products/Debug-iphoneos/BrainlyAPIClient.framework/Info.plist /Users/radekcieciwa/Development/iOS/Brainly/Modules/Internal/BrainlyAPIClient/BrainlyAPIClient/Info.plist
+             CompileSwiftSources                 :     1.96r     4.53u     2.07s                 | CompileSwiftSources normal arm64 com.apple.xcode.tools.swift.compiler
+             CompileSwiftSources                 :     1.98r     4.66u     2.07s                 | CompileSwiftSources normal armv7 com.apple.xcode.tools.swift.compiler
+             Ditto                               :     0.01r     0.00u     0.00s                 | Ditto /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Products/Debug-iphoneos/BrainlyAPIClient.framework/Headers/BrainlyAPIClient-Swift.h /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Intermediates/BrainlyAPIClient.build/Debug-iphoneos/BrainlyAPIClient.build/Objects-normal/arm64/BrainlyAPIClient-Swift.h
+             Ditto                               :     0.01r     0.00u     0.00s                 | Ditto /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Products/Debug-iphoneos/BrainlyAPIClient.framework/Headers/BrainlyAPIClient-Swift.h /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Intermediates/BrainlyAPIClient.build/Debug-iphoneos/BrainlyAPIClient.build/Objects-normal/armv7/BrainlyAPIClient-Swift.h
+             Ditto                               :     0.01r     0.00u     0.00s                 | Ditto /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Products/Debug-iphoneos/BrainlyAPIClient.framework/Modules/BrainlyAPIClient.swiftmodule/arm.swiftmodule /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Intermediates/BrainlyAPIClient.build/Debug-iphoneos/BrainlyAPIClient.build/Objects-normal/armv7/BrainlyAPIClient.swiftmodule
+             Ditto                               :     0.01r     0.00u     0.00s                 | Ditto /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Products/Debug-iphoneos/BrainlyAPIClient.framework/Modules/BrainlyAPIClient.swiftmodule/arm.swiftdoc /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Intermediates/BrainlyAPIClient.build/Debug-iphoneos/BrainlyAPIClient.build/Objects-normal/armv7/BrainlyAPIClient.swiftdoc
+             Ditto                               :     0.01r     0.00u     0.00s                 | Ditto /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Products/Debug-iphoneos/BrainlyAPIClient.framework/Modules/BrainlyAPIClient.swiftmodule/arm64.swiftmodule /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Intermediates/BrainlyAPIClient.build/Debug-iphoneos/BrainlyAPIClient.build/Objects-normal/arm64/BrainlyAPIClient.swiftmodule
+             Ditto                               :     0.01r     0.00u     0.00s                 | Ditto /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Products/Debug-iphoneos/BrainlyAPIClient.framework/Modules/BrainlyAPIClient.swiftmodule/arm64.swiftdoc /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Intermediates/BrainlyAPIClient.build/Debug-iphoneos/BrainlyAPIClient.build/Objects-normal/arm64/BrainlyAPIClient.swiftdoc
+             CompileC                            :     0.02r     0.01u     0.01s                 | CompileC /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Intermediates/BrainlyAPIClient.build/Debug-iphoneos/BrainlyAPIClient.build/Objects-normal/arm64/BrainlyAPIClient_vers.o /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Intermediates/BrainlyAPIClient.build/Debug-iphoneos/BrainlyAPIClient.build/DerivedSources/BrainlyAPIClient_vers.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+             CompileC                            :     0.02r     0.01u     0.01s                 | CompileC /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Intermediates/BrainlyAPIClient.build/Debug-iphoneos/BrainlyAPIClient.build/Objects-normal/armv7/BrainlyAPIClient_vers.o /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Intermediates/BrainlyAPIClient.build/Debug-iphoneos/BrainlyAPIClient.build/DerivedSources/BrainlyAPIClient_vers.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+             Ld                                  :     0.06r     0.05u     0.02s                 | Ld /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Intermediates/BrainlyAPIClient.build/Debug-iphoneos/BrainlyAPIClient.build/Objects-normal/arm64/BrainlyAPIClient normal arm64
+             Ld                                  :     0.06r     0.05u     0.02s                 | Ld /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Intermediates/BrainlyAPIClient.build/Debug-iphoneos/BrainlyAPIClient.build/Objects-normal/armv7/BrainlyAPIClient normal armv7
+             CreateUniversalBinary               :     0.04r     0.00u     0.01s                 | CreateUniversalBinary /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Products/Debug-iphoneos/BrainlyAPIClient.framework/BrainlyAPIClient normal armv7\ arm64
+             CpHeader                            :     0.00r     0.00u     0.00s                 | CpHeader BrainlyAPIClient/BrainlyAPIClient.h /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Products/Debug-iphoneos/BrainlyAPIClient.framework/Headers/BrainlyAPIClient.h
+             CpResource                          :     0.00r     0.00u     0.00s                 | CpResource BrainlyAPIClient/Network/Endpoints/BREndpoints.bundle /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Products/Debug-iphoneos/BrainlyAPIClient.framework/BREndpoints.bundle
+             Ditto                               :     0.00r     0.00u     0.00s                 | Ditto /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Intermediates/BrainlyAPIClient.build/Debug-iphoneos/BrainlyAPIClient.build/module.modulemap /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Products/Debug-iphoneos/BrainlyAPIClient.framework/Modules/module.modulemap
+             Touch                               :     0.00r     0.00u     0.00s                 | Touch /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Products/Debug-iphoneos/BrainlyAPIClient.framework
+             CodeSign                            :     0.12r     0.06u     0.02s                 | CodeSign /Users/radekcieciwa/Library/Developer/Xcode/DerivedData/BrainlyAPIClient-etivdnoljqvyhkerfusjghdusrap/Build/Products/Debug-iphoneos/BrainlyAPIClient.framework
+           Builder postprocessing              :     0.0001r     0.0000u     0.0000s                
+           Builder cleanup                     :     0.0043r     0.0000u     0.0000s                
+       Build operation finishing           :     0.0000r     0.0000u     0.0000s                
+       Build operation cleanup             :     0.0002r     0.0000u     0.0000s                
+Log emission                        :     0.0104r     0.0000u     0.0000s                
+xcodebuild                          :     5.0225r     9.3746u     4.2349s                
+ Option parsing                      :     0.0007r     0.0000u     0.0000s                
+ IDEInitialize()                     :     0.3245r     0.0000u     0.0000s                
+ Device location                     :     0.0045r     0.0000u     0.0000s                
+ Option resolution                   :     0.1630r     0.0000u     0.0000s                
+   xcconfig loading                    :     0.0005r     0.0000u     0.0000s                
+   Scanning for projects               :     0.0008r     0.0000u     0.0000s                
+   Project loading                     :     0.1593r     0.0000u     0.0000s                
+   Scheme loading                      :     0.0000r     0.0000u     0.0000s                
+   Run destination resolution          :     0.0001r     0.0000u     0.0000s                
+ Build actions                       :     4.5273r     9.3746u     4.2349s                
+   Action 'clean' and destination 'Generic iOS Device' :     0.1965r     0.0000u     0.0000s                
+     Create scheme operations            :     0.0024r     0.0000u     0.0000s                
+     Queued by execution environment     :     0.0011r     0.0000u     0.0000s                
+     Build operation                     :     0.1888r     0.0000u     0.0000s                
+       Build operation setup               :     0.0147r     0.0000u     0.0000s                
+         Builder creation                    :     0.0000r     0.0000u     0.0000s                
+       Build                               :     0.1736r     0.0000u     0.0000s                
+         Dependency graph creation           :     0.1265r     0.0000u     0.0000s                
+           Creating default build plan         :     0.0004r     0.0000u     0.0000s                
+         Wait for dependency graph           :     0.1260r     0.0000u     0.0000s                
+         Create auxiliary files              :     0.0000r     0.0000u     0.0000s                
+         Dependency analysis                 :     0.0000r     0.0000u     0.0000s                
+         IDEBuildTask creation               :     0.0003r     0.0000u     0.0000s                
+         Build tasks (1 builders)            :     0.0475r     0.0000u     0.0000s                
+           Clean.Remove                        :     0.0475r     0.0000u     0.0000s                
+         Builder postprocessing              :     0.0000r     0.0000u     0.0000s                
+         Builder cleanup                     :     0.0001r     0.0000u     0.0000s                
+       Build operation finishing           :     0.0000r     0.0000u     0.0000s                
+       Build operation cleanup             :     0.0004r     0.0000u     0.0000s                
+   Action 'build' and destination 'Generic iOS Device' :     4.3305r     9.3746u     4.2349s                
+     Create scheme operations            :     0.0013r     0.0000u     0.0000s                
+     Queued by execution environment     :     0.0004r     0.0000u     0.0000s                
+     Build operation                     :     4.3281r     9.3746u     4.2349s                
+       Build operation setup               :     0.0050r     0.0000u     0.0000s                
+         Builder creation                    :     0.0000r     0.0000u     0.0000s                
+       Build                               :     4.3227r     9.3746u     4.2349s                
+         Dependency graph creation           :     0.0500r     0.0000u     0.0000s                
+           Creating default build plan         :     0.0003r     0.0000u     0.0000s                
+         Wait for dependency graph           :     0.0976r     0.0000u     0.0000s                
+         Create auxiliary files              :     0.0063r     0.0000u     0.0000s                
+         Dependency analysis                 :     0.0014r     0.0000u     0.0000s                
+         IDEBuildTask creation               :     0.0009r     0.0000u     0.0000s                
+         Build tasks (1 builders)            :     4.3107r     9.3746u     4.2349s                
+           CompileSwiftSources                 :     3.9377r     9.1853u     4.1326s                
+           Ld                                  :     0.1247r     0.0978u     0.0354s                
+           CodeSign                            :     0.1190r     0.0563u     0.0172s                
+           Ditto                               :     0.0451r     0.0143u     0.0222s                
+           CompileC                            :     0.0399r     0.0177u     0.0163s                
+           CreateUniversalBinary               :     0.0352r     0.0016u     0.0095s                
+           ProcessInfoPlistFile                :     0.0038r     0.0000u     0.0000s                
+           Touch                               :     0.0038r     0.0015u     0.0018s                
+           CpResource                          :     0.0009r     0.0000u     0.0000s                
+           CpHeader                            :     0.0005r     0.0000u     0.0000s                
+         Builder postprocessing              :     0.0001r     0.0000u     0.0000s                
+         Builder cleanup                     :     0.0043r     0.0000u     0.0000s                
+       Build operation finishing           :     0.0000r     0.0000u     0.0000s                
+       Build operation cleanup             :     0.0002r     0.0000u     0.0000s                
+Log emission                        :     0.0060r     0.0000u     0.0000s                
