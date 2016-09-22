@@ -145,4 +145,4 @@ times = read_times(file_as_string_array)
 
 json_result = json.dumps(populate_values(line_depth_result, names, times), ensure_ascii=False)
 print json_result
-print "\n\tRetreive from machine:\n\n" + get_system_profile()
+# print "\n\tRetreive from machine:\n\n" + get_system_profile()
