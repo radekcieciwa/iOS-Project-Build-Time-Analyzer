@@ -4,8 +4,15 @@ More detailed build time measuring tool for iOS projects.
 
 ## Example usage
 ### Enable detailed build logs
+
+By default they don't exist
 ```
 defaults write com.apple.dt.xcodebuild CommandLineBuildTimingLogLevel -int 5
+```
+
+So after executing it, you should remove the flag in order to remove any custom logs.
+```
+defaults delete com.apple.dt.xcodebuild CommandLineBuildTimingLogLevel
 ```
 
 ### Generate build.log
